@@ -1,0 +1,26 @@
+{
+  "name": "cobertura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucaSansa/cobertura.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/LucaSansa/cobertura/issues"
+  },
+  "homepage": "https://github.com/LucaSansa/cobertura#readme"
+}
