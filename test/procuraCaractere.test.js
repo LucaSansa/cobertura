@@ -3,11 +3,11 @@ const procuraCaractere = require('../lib/procuraCaractere');
 describe('procuraCaractere', () => {
 
     test('palavra vazia', () => {
-        expect(procuraCaractere('', 'x')).toBe('imput de palavra vazio');
+        expect(procuraCaractere('', 'x')).toBe('input de palavra vazio');
     });
 
     test('caractere vazio', () => {
-        expect(procuraCaractere('lucas', '')).toBe('impot de caractere vazio');
+        expect(procuraCaractere('lucas', '')).toBe('input de caractere vazio');
     });
 
     test('contem caractere', () => {
